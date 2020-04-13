@@ -1,0 +1,132 @@
+.sideBarCard {
+    height: 820px;
+    overflow-y: scroll;
+}
+
+.mainBarCard {
+    height: 820px;
+    /* overflow-y: scroll; */
+    width: 100%
+}
+
+/* navbar */
+.bg-navyblue {
+    background-color: #02325f;
+}
+
+/* card - grey */
+.ap-card-dark-grey {
+    background-color: #97999B !important;
+}
+
+/* card - yellow fcbe16*/
+.ap-card-dark-yellow {
+    background-color: #F99B0C !important;
+}
+
+/* card - green */
+.ap-card-dark-green {
+    background-color: #006B3F !important;
+}
+
+/* card - light blue */
+.ap-card-light-blue {
+    background-color: #75AADB !important;
+}
+
+
+.chart-div {
+    height: 300px;
+    /* overflow-y: scroll; */
+    /* border-right: 0.3em solid #ecf0f1; */
+    background-color: #f8f9fa;
+}
+
+._dash-undo-redo {
+    display: none;
+}
+
+.card-summary-num {   
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: #fcbe16;
+}
+.card-summary-num-centered {   
+    font-size: 3.3rem;
+    font-weight: 700;
+    color: #003D6B;
+    text-align: center;
+}
+.card-summary-title {   
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #003D6B;
+    text-align: center;
+}
+.card-summary-description {   
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: #003D6B;
+    text-align: center;
+}
+
+
+
+.card-scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px; }
+  
+.card-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    background-color: #F5F5F5; }
+  
+.card-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    /* background-image: -webkit-linear-gradient(330deg, #e3e7eb 0%, #ffffff 60%); */
+    background-color: #e3e7eb;
+    /* background-image: linear-gradient(120deg, #e3e7eb 0%, #ffffff 60%);  */
+}
+
+
+
+.container-fluid-no-margin {
+	width: 100%;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	margin-left: 0px
+}
+.dash-spreadsheet-container table {
+    --accent: #d1d4d7 !important;
+    --selected-background: #fff !important;
+    --selected-color: #fff !important;
+}
+
+
+.dash-table-with-dropdown table {
+    --accent: #000000 !important;
+    --selected-background: #FFFFFF !important;
+    --selected-color: #fff !important;
+}
+
+
+
+.Select-menu-outer {
+display : block !important;
+   
+}
+
+/* 
+.custom-tab-selected {
+    color: black;
+    box-shadow: 1px 1px 0px white;
+    border-left: 1px solid lightgrey !important;
+    border-right: 1px solid lightgrey !important;
+    border-top: 3px solid #e36209 !important;
+}
+ */
+/* .active {
+    background-color: #033C73 !important;
+} */

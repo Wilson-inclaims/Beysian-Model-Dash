@@ -1,0 +1,186 @@
+
+body {
+  background-color: #F5F5F5;
+/*     #282f3f */
+/*   color: #212121;
+  font-family: 'ProximaNovaAlt', sans-serif;
+  font-size: 0.9vw;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100% !important;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+ */
+}
+
+/* .header {
+  height: 60px;
+  overflow: hidden;
+  }
+
+.header_logo {
+    width: 230px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.banner_logo {
+    width: 200px;
+    margin-top: 15px;
+}
+ */
+/* html {
+  background-color: white;
+  color: #212121;
+  font-size: 0.9vw;
+  overflow-x: hidden;  
+}
+ */
+.data-modal {
+    position: absolute; 
+	left: 30%;
+	top: 30%;
+    z-index: 1002; 
+	margin: 0;
+	padding: 0;
+    width: 50vw;
+    height: 10vw; 
+    background-color: #cbe1ee; 
+	color: #212121;
+	border: 0.2vw solid #3288BD;
+	border-radius: 0.5rem;
+}
+ 
+ .cluster-modal {
+    position: absolute; 
+	left: 30%;
+	top: 25%;
+    z-index: 1002; 
+	margin: 0;
+	padding: 0;
+    width: 50vw;
+    height: 15vw; 
+    background-color: #cbe1ee; 
+	color: #212121;
+	border: 0.2vw solid #3288BD;
+	border-radius: 0.5rem;
+}
+
+.custom-tabs {
+  background-color: white !important;
+  color: #212121 !important;
+  display: flex !important;
+  width: 30vw;
+  margin: 0vw 0vw 0vw 1vw;
+  border: 0.1vw solid #D9D9D9;
+  height: 70vw;
+}
+
+.custom-tab {
+  height: 50px;
+  font-size: calc(0.3rem + 0.6vw);
+  display: flex !important;
+  border-top: transparent !important;
+  border-left: 0.1vw solid #D9D9D9 !important;
+  border-right: transparent !important; 
+  border-bottom: 0.1vw solid #D9D9D9 !important; 
+  color: #212121 !important;
+  background-color: white !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  display: block;
+}
+
+.custom-tab--selected { 
+  border-bottom: 0.2vw solid #3288BD !important;
+}
+
+.data-tabs {
+  background-color: white !important;
+  color: #212121 !important;
+  display: flex !important;
+  width: 63vw;
+  margin: 0;
+  height: 70vw;
+}
+
+.data-tab {
+  height: 50px;
+  font-size: calc(0.3rem + 0.6vw);
+  display: flex !important;
+  border-top: transparent !important;
+  border-left: 0.1vw solid #D9D9D9 !important;
+  border-right: transparent !important; 
+  border-bottom: 0.1vw solid #D9D9D9 !important; 
+  color: #212121 !important;
+  background-color: white !important;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.data-tab--selected { 
+  border-bottom: 0.2vw solid #3288BD !important;
+}
+
+.Select-menu-outer {
+  color: #212121 !important;
+  font-size: 95%;
+}
+
+.Select--multi .Select-value {
+  color: #212121 !important;
+  border-color: #D9D9D9 !important;
+}
+
+.Select--multi .Select-value-icon {
+  color: #212121 !important;
+  border-color: #D9D9D9 !important;
+}
+
+ .Select--multi .Select-value-icon:hover {
+  color: #212121 !important;
+  border-color: #D9D9D9 !important;
+}
+
+.Select .Select-value {
+  margin-top: 0px !important;
+}
+
+.VirtualizedSelectOption {
+  color: #212121 !important;
+  font-size: 95%;
+  font-weight: 400 !important;
+  cursor: pointer;
+}
+
+.VirtualizedSelectFocusedOption {
+  color: #212121 !important;
+  font-size: 95%;
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+
+.dash-spreadsheet-container table {
+    --accent: #d1d4d7 !important;
+    --selected-background: #FFFFFF !important;
+    --selected-color: #FFFFFF !important;
+}
+
+.tab_label {
+  margin: 1vw 0vw 0.3vw 0vw;
+}
+
+
+.update_button {
+    background-color: #3288BD,
+    font-size: 80%,
+    margin-left: 1vw,
+    font-weight: 500,
+    text-align: center,
+    width: 30%,
+    color: white
+}
+
